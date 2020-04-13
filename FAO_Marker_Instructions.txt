@@ -1,0 +1,7 @@
+
+	In order to have the website run, please copy the root folder into the "htdocs"
+		folder within XAMP and run it locally through a brower. Firefox seems
+		to work slightly better than Chrome but should work on both.
+
+	Regards,
+	Nick Connell

@@ -1,0 +1,253 @@
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+/* PARENT CONTAINER */
+#Container {
+   height:100%;
+   position:relative;
+}
+
+/* HEADER */
+#header { 
+   background: black;
+   color: white;
+   height: 120px;
+   text-align: center;
+   position:fixed;
+   width: 100%;
+   
+}
+
+/* CONTENT CONTAINER FOR ALL DATA */
+#ContentContainer {
+	height:2000px;
+	width: 1400px;
+   padding-left: 13%;
+   padding-top: 120px;
+}
+
+#ContentContainer toggler{
+   text-align: center;
+   padding-right: 15px;
+   width: 1350px;
+}
+
+/* FOOTER */
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background: black;
+   color: white;
+   text-align: centre;
+   font-style: italic;
+}
+
+/* FOR SEARCH.PHP - TRADITIONAL WORD SEARCH DIV */
+#SearchBar{
+	border-style: solid;
+	border-width:medium;
+	height: 140px;
+	width: 220px;
+	display: inline-block;
+	margin: 15px;
+	margin-right: 15px;
+	padding-left: 10px;
+	padding-right: 300px;
+	}
+
+#resultsTable{
+	width: 1350px;
+	padding-bottom: 60px;
+}
+
+/* TEXT APPEARANCE */
+#header, #footer, #ContentContainer {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* LAYOUT OF CONTACT US PAGE */
+/* HEIGHT OF QUESTION BOX */
+#question {
+	height:200px;
+}
+
+#questionLabel{
+	position: top;
+}
+
+/* ALL NAVIGATION STYLING IN HERE */
+body {
+    margin: 0;
+}
+
+nav {
+	list-style:none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: #A0A0A0;
+    position: fixed;
+    height:100%;
+    overflow: auto;
+	text-align: left;	
+	font-style: bold;
+	font-size: 25px;
+	top: 120px;
+	border-style: solid;
+	border-width:medium;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+nav ul {
+	list-style: none;
+	text-align: centre;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;	
+}
+
+#txtArea{
+	height: 500px;
+	width: 1200px;
+}
+
+/* STYLING FOR SPA SLIDESHOW */
+
+.container{
+	width: 800px;
+	margin: 40px auto;
+	overflow: auto;
+}
+
+.slider-inner{
+	width: 500px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+	border: #666 solid 1px;
+}
+
+.slider-inner img{
+	display: none;
+	width: 500px;
+	height: 300px;
+}
+
+.slider-inner img.active{
+	display: inline-block;
+}
+
+.prev, .next{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+.prev{
+	position: relative;
+	margin-right: -45px;
+	z-index: 100px;
+}
+
+.next{
+	position: relative;
+	margin-left: -45px;
+	z-index: 100px;
+}
+
+
+/* STYLING FOR TOGGLE CONTAINERS */
+
+#toggler { 
+		text-align: left;
+		background-color: #A0A0A0;
+		border-style: solid;
+		border-width: medium;
+		margin-top: 15px;
+		width: 1350px;
+		padding-left: 10px
+	}
+	
+.togglerContent { 
+	display: none; 
+	text-align: left;
+	width: 100%;
+	padding-left: 10px
+	}
+
+/* FORMATTING OF SEARCH RESULTS */
+table, td, th {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	width: 1350px;
+	padding-left: 10px;
+}
+
+/* ALL MEDIA QUERIES HERE */
+@media screen and (min-width: 320px) {
+    #container {width: 100%;}
+    #header {width: 100%; height: 120px;}
+	#ContentContainer {width: 85%; height: 100px; padding-top: 120px;}
+	#footer {width: 100%;}
+	#SearchBar {width: 100%; width: 100%; padding-left: 10px;}
+	#toggler {width: 100%;)
+	.togglerContent {width: 100%;}
+	nav {width: 15%; height: 100%; text-align: center;}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
